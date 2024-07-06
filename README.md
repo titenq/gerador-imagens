@@ -34,5 +34,7 @@ Entre com as informações e a imagem será gravada em:
 gerador-imagens/img
 ```
 
+De preferência, digite o prompt em inglês.
+
 ## Licença
 Distribuído sob a licença MIT. Consulte `LICENSE.txt` para obter mais informações.
