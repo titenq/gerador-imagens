@@ -6,6 +6,8 @@
 ![dK4LhQa.png](https://iili.io/dK4LhQa.png)
 Aplicação CLI para gerar imagens diretamente do terminal.
 
+1000 gerações gratuitas por mês.
+
 ## Pré-requisitos
 Fazer o cadastro e gerar a API KEY no [prodia](https://app.prodia.com/login).
 
@@ -34,7 +36,9 @@ Entre com as informações e a imagem será gravada em:
 gerador-imagens/img
 ```
 
-De preferência, digite o prompt em inglês.
+Digite o prompt em inglês para obter melhores resultados.
+
+Para melhor desempenho, use uma das seguintes resoluções: 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216
 
 ## Licença
 Distribuído sob a licença MIT. Consulte `LICENSE.txt` para obter mais informações.
