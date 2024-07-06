@@ -14,7 +14,7 @@ const saveImage = async (prompt, style_preset, width, height) => {
 
   const interval = setInterval(async () => {
     try {
-      let image = await getImage(job);
+      const image = await getImage(job);
 
       if (image.status === 'generating') {
         console.log('Imagem ainda está sendo gerada...');
@@ -22,7 +22,7 @@ const saveImage = async (prompt, style_preset, width, height) => {
         console.log('Imagem pronta:', image);
         clearInterval(interval);
 
-        const dir = './img';
+        const dir = path.join('.', 'img');
 
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir);
